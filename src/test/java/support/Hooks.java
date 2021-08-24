@@ -10,6 +10,7 @@ import static support.TestContext.getDriver;
 
 public class Hooks {
 
+
     @Before(order = 0)
     public void scenarioStart() {
         TestContext.initialize();
